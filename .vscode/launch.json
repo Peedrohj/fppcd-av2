@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Application",
+            "request": "launch",
+            "mainClass": "com.atividade2.expedicao.Application"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Application",
+            "request": "launch",
+            "mainClass": "com.atividade2.estoque.Application",
+            "projectName": "estoque"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<estoque>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.exercicio2.estoque.DemoApplication",
+            "projectName": "estoque",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MavenWrapperDownloader",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "MavenWrapperDownloader",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<expedicao>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.atividade2.expedicao.Application",
+            "projectName": "expedicao",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<cobranca>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.atividade2.cobranca.Application",
+            "projectName": "cobranca",
+            "args": ""
+        }
+    ]
+}
