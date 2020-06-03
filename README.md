@@ -1,5 +1,5 @@
 # Fppcd-av2
-Repositório para o projeto de avaliação 2 unidade da disciplina de Fundamentos de Programação Paralela, Concorrente e Distribuída do Cesar School
+Repositório para o projeto de avaliação da 2 unidade da disciplina de Fundamentos de Programação Paralela, Concorrente e Distribuída do Cesar School
 
 A aplicação é composta por 3 componentes:
 * Carrinho de compras
@@ -12,10 +12,10 @@ Sendo o client da aplicação o "Carrinho de compras" e os servers os outros com
 Para rodar o código, é necessário primeiramente rodar todos os componentes do server side, e por utlimo rodar client.
 
 Por padrão o server side está configurado da seguinte forma: 
-```
-* O estoque está na porta: 8081
-* A expedição está na porta: 8082
-* A cobrança está na porta: 8083
+```markdown
+* O estoque está na porta: **__8081__**
+* A expedição está na porta: **__8082__**
+* A cobrança está na porta: **__8083__**
 ```
 
 Caso isso seja modificado, é necessário trocar no client, no parametro urls que está dentro de Application
