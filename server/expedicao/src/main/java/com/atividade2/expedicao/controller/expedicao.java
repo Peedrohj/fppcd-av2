@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class expedicao {
-    
-    @PostMapping("/")  
-    public String getMethodName(@RequestBody String compra) {
-        return compra;
+
+    @PostMapping("/")
+    public String compra(@RequestBody String compra) {
+        return "Resposta de expedicao: " + compra;
     }
 }

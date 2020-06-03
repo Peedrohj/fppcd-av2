@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class estoque {
 
     @PostMapping("/")  
-    public String getMethodName(@RequestBody String compra) {
-        return compra;
+    public String compra(@RequestBody String compra) {
+        return "Resposta de estoque: " + compra;
     }
 }

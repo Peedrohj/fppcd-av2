@@ -41,10 +41,12 @@ public class Carrinho {
         this.sku = sku;
     }
 
-    public ResponseEntity<String> comprar(final Carrinho carrinho, final String url) {
+    public void comprar(final Carrinho carrinho, final String[] urlArray) {
         final RestTemplate restTemplate = new RestTemplate();
-        final ResponseEntity<String> responseEntityPerson = restTemplate.postForEntity(url, carrinho, String.class);
 
-        return responseEntityPerson;
+        for (String url : urlArray) {
+            final ResponseEntity<String> responseEntityPerson = restTemplate.postForEntity(url, carrinho, String.class);
+            System.out.println("Response result" + responseEntityPerson);
+        }
     }
 }
