@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - Application",
             "request": "launch",
+            "mainClass": "com.atividade2.cart.Application",
+            "projectName": "cart"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Application",
+            "request": "launch",
             "mainClass": "com.atividade2.expedicao.Application"
         },
         {
